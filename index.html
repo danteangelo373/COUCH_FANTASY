@@ -9,7 +9,7 @@
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=960 height=600></canvas>
+      <canvas id="unity-canvas" width=1400 height=600></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -58,9 +58,9 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/COUCH_FANTASY.loader.js";
       var config = {
-        dataUrl: buildUrl + "/COUCH_FANTASY.data.gz",
-        frameworkUrl: buildUrl + "/COUCH_FANTASY.framework.js.gz",
-        codeUrl: buildUrl + "/COUCH_FANTASY.wasm.gz",
+        dataUrl: buildUrl + "/COUCH_FANTASY.data.br",
+        frameworkUrl: buildUrl + "/COUCH_FANTASY.framework.js.br",
+        codeUrl: buildUrl + "/COUCH_FANTASY.wasm.br",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DANTEANGELO373",
         productName: "COUCH FANTASY",
@@ -93,7 +93,7 @@
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
-        canvas.style.width = "960px";
+        canvas.style.width = "1400px";
         canvas.style.height = "600px";
       }
 
